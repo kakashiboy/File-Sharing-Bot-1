@@ -10,7 +10,7 @@ API_ID = int(os.environ.get("API_ID", "22802977"))
 API_HASH = os.environ.get("API_HASH", "32e1f0a923912d4528bb3273b89de50f")
 
 
-OWNER_ID = int(os.environ.get("OWNER_ID", "6860249430"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "6091537598"))
 DB_URL = os.environ.get("DB_URL", "mongodb+srv://nshubh345:1FmseyW0TKaWNMNo@cluster0.pgewb.mongodb.net/?retryWrites=true&w=majority")
 DB_NAME = os.environ.get("DB_NAME", "filesharexbot")
 
