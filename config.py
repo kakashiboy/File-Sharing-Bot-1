@@ -10,7 +10,7 @@ API_ID = int(os.environ.get("API_ID", "25668834"))
 API_HASH = os.environ.get("API_HASH", "d7fe7f172b15ac1e2135259f4db39a21")
 
 
-OWNER_ID = int(os.environ.get("OWNER_ID", "7894957866"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "6091537598"))
 DB_URL = os.environ.get("DB_URL", "mongodb+srv://nshubh345:1FmseyW0TKaWNMNo@cluster0.pgewb.mongodb.net/?retryWrites=true&w=majority")
 DB_NAME = os.environ.get("DB_NAME", "filesharexbot")
 
@@ -29,7 +29,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 try:
     ADMINS=[6848088376]
-    for x in (os.environ.get("ADMINS", "7743411008 1568505136").split()):
+    for x in (os.environ.get("ADMINS", "7743411008 7894957866").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
